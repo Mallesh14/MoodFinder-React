@@ -1,0 +1,33 @@
+.container{
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(237, 236, 235);
+}
+button{
+  margin: 7px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+.happy{
+  background-color: rgb(237, 223, 73);
+  color: rgb(219, 135, 32);
+}
+.sad{
+  background-color: grey;
+  color: white;
+}
+.good{
+  background-color: skyblue;
+  color: azure;
+}
+.depressed{
+  background-color: brown;
+  color: hsl(0, 76%, 69%);
+}
